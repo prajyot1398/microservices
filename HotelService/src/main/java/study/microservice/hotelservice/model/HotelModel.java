@@ -28,5 +28,5 @@ public class HotelModel {
 
     private String about;
 
-    private List<Review> reviewsForHotel;
+    private List<Ratings> reviewsForHotel;
 }

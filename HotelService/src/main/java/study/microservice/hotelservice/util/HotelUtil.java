@@ -5,7 +5,7 @@ import java.util.function.Function;
 
 import study.microservice.hotelservice.entity.Hotel;
 import study.microservice.hotelservice.model.HotelModel;
-import study.microservice.hotelservice.model.Review;
+import study.microservice.hotelservice.model.Ratings;
 
 public class HotelUtil {
 
@@ -15,7 +15,7 @@ public class HotelUtil {
             .hotelLocation(entity.getLocation())
             .hotelName(entity.getHotelName())
             .about(entity.getAbout())
-            .reviewsForHotel(new ArrayList<Review>())
+            .reviewsForHotel(new ArrayList<Ratings>())
             .build();
     };
 

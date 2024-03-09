@@ -25,5 +25,5 @@ public class UserModel {
 
     private String about;
 
-    private List<Review> reviewsByUser;
+    private List<Ratings> reviewsByUser;
 }

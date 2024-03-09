@@ -9,7 +9,7 @@ import lombok.Setter;
 @AllArgsConstructor
 @Getter
 @Setter
-public class Review {
+public class Ratings {
 
     private String reviewId;
     private String userId;
