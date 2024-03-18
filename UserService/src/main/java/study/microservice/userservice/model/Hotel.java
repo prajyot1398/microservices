@@ -6,16 +6,17 @@ import lombok.NoArgsConstructor;
 import lombok.Setter;
 
 @NoArgsConstructor
-@AllArgsConstructor
 @Getter
 @Setter
-public class Ratings {
+@AllArgsConstructor
+public class Hotel {
 
-    private String ratingId;
-    private String userId;
     private String hotelId;
-    private int ratings;
-    private String reviewComment;
 
-    private Hotel hotel;
+    private String hotelName;
+
+    private String hotelLocation;
+
+    private String about;
+    //private List<Ratings> reviewsForHotel;
 }
